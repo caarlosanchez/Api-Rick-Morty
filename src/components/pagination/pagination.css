@@ -1,0 +1,36 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+
+.page-item{
+    list-style: none;
+}
+.page-link1{
+    background-color: rgb(233, 233, 233);
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: .5rem 0 0 .5rem;
+    border-right: 1px solid rgb(189, 189, 189);
+}
+.page-link2{
+    background-color: rgb(233, 233, 233);
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.page-link1:hover{
+   color: rgb(112, 112, 255);
+}
+.page-link2:hover{
+    color: rgb(112, 112, 255);
+}
